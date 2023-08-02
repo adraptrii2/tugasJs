@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="meeting1.js">
+        let sumbuX = prompt("positif sumbu X atau negatif");
+let sumbuY = prompt("positif sumbu Y atau negatif");
+
+if(sumbuX > 0 && sumbuY > 0 ) {
+   document.write("player berada di kanan atas")
+}else if(sumbuX > 0 && sumbuY < 0){
+    document.write("player berada di kiri bawah")
+}else if(sumbuX > 0 && sumbuY >0){
+    document.write("player berada di kanan bawah")
+}else if(sumbuX > 0 && sumbuY < 0){
+    document.write("player berada di kiri bawah")
+}else if(sumbuX ==0 && sumbuY ==0 ) {
+    document.write("player berada di atas")
+}else if(sumbuX >0 && sumbuY ==0) {
+    document.write("player berada di bawah")
+}else if(sumbuX ==0 && sumbuY ==0 ){
+    document.write("player berada di bawah")
+} else {
+    document.write("Player tidak ditemukan")
+}
+    </script>
+</body>
+</html>
